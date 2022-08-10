@@ -1,0 +1,22 @@
+.table .tableCell {
+  align-self: center;
+}
+.table .status {
+  padding: 5px;
+  border-bottom: 5px;
+  border-radius: 10px;
+}
+.table .status.Completed {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.151);
+}
+.table .status.Cancelled {
+  color: red;
+  background-color: rgb(229, 185, 185);
+}
+.table .status.progress {
+  color: blueviolet;
+  background-color: #a5c2f5;
+}
+
+/*# sourceMappingURL=table.css.map */

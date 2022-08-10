@@ -1,0 +1,38 @@
+.datatable {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+}
+.datatable .title {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.datatable .customer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+  margin-bottom: 10px;
+}
+.datatable .customer .info {
+  display: flex;
+  align-items: center;
+}
+.datatable .customer .info .image {
+  margin-right: 5px;
+}
+.datatable .customer .info .image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.datatable .customer .info .text-info p {
+  color: gray;
+  font-size: 12px;
+}
+.datatable .customer .amount {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=datatable.css.map */
